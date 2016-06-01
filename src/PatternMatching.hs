@@ -1,3 +1,5 @@
+module PatternMatching where
+
 -- pattern matching
 head' :: [a] -> a
 head' [] = error "Can't call head on an empty list, dummy!" -- case empty list
