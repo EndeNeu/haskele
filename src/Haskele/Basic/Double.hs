@@ -44,6 +44,6 @@ factorial :: (Integral a) => a -> a
 factorial 0 = 1
 factorial n = n * factorial (n - 1)
 
--- . is used for function composition
-sum (replicate 5 (max 6.7 8.9))
-(sum . replicate 5 . max 6.7) 8.9 -- where replicate takes 2 parameters, same for max.import
+-- . is used for function composition, the two definitions are equivalent
+sumM = sum (replicate 5 (max 6.7 8.9))
+sumM2 = (sum . replicate 5 . max 6.7) 8.9 -- where replicate takes 2 parameters, same for max.import

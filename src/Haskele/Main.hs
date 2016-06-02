@@ -1,4 +1,4 @@
-module Main where
+module Haskele.Main where
 
 import Let
 import Double
