@@ -53,4 +53,4 @@ data Day = Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday
 
 
 -- type aliases
-type String = [Char]
+type Persons = [Person]
